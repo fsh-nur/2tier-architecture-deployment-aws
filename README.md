@@ -34,3 +34,25 @@ How to find the instance link:
 
 
 ![link2instance](https://user-images.githubusercontent.com/129324316/233976963-7df0530a-6b3f-4bb0-a906-d5534730a308.png)
+
+
+## Deploying the app on aws
+
+1. Making sure that port 3000 is open where the app is hosted:
+  - Navigate to your Security Group
+  - Edit Inbound Rules 
+  - Create a rule allowing port 3000
+ 
+ 2. SSH into your instance in the ssh folder paste this in
+ 
+ 
+ ![link2instance](https://user-images.githubusercontent.com/129324316/234017469-f0ae8b99-e71f-4cd4-a35e-69b6420be739.png)
+
+ 
+ 3. In Gitbash deploy the app after navigating to the app folder
+ 
+ ```
+ cd app
+ node app.js
+ ```
+
