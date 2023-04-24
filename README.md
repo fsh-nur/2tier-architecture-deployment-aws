@@ -1,7 +1,7 @@
 # 2tier-architecture-deployment-aws
 
 
-## Transferring dta from our local host to AWS
+## Transferring data from our local host to AWS
 
 ### Migrating the "app" directory:
 
