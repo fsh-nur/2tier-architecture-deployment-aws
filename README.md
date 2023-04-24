@@ -24,6 +24,13 @@ How to find the instance link:
 
 1. Navigate to your instance and select
 
+![finding link connect instance](https://user-images.githubusercontent.com/129324316/233976952-c0384cc6-eddc-41e8-99aa-a83ba4d994d3.png)
+
+
 
 2. Click Connect and you will find what you need to copy into your GitBash. 
 
+
+
+
+![link2instance](https://user-images.githubusercontent.com/129324316/233976963-7df0530a-6b3f-4bb0-a906-d5534730a308.png)
