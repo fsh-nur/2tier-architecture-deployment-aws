@@ -55,4 +55,15 @@ How to find the instance link:
  cd app
  node app.js
  ```
+ 
+ 4. When pasting your IP in the browser you should see the following pages:
+
+
+
+## Creating a DB server:
+
+1. As susual name the server, however, when choosing 
+
+
+
 
