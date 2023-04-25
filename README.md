@@ -201,3 +201,9 @@ sudo systemctl start mongod
 |5. Restart mongod :```sudo systemctl restart mongod```|12. ```cd app```|
 |6. Enable autostart of mongo: ```sudo systemctl enable mongod```|13. ```node seeds/seed.js``` - seed data to database|
 |7. Ensure that mongo is running: ```sudo systemctl status mongod ```|14. Run the app by using node app.js and search your IP/posts in your web browser|
+ 
+ 
+ The following page should appear:
+ 
+ ![posts](https://user-images.githubusercontent.com/129324316/234239523-7dc09a3a-ab11-4342-9b75-0bfffe26f897.png)
+
