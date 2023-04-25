@@ -169,7 +169,7 @@ kill -9 PID
 
 4. Launch the instance
 5. SSH into the instance in GitBash
-6. In order to install mongodb you must enter the following commands:
+6. In order to install mongodb you must enter the following commands individually:
 
 ```
 sudo apt update -y 
