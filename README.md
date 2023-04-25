@@ -188,3 +188,9 @@ sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org
 
 sudo systemctl start mongod
 ```
+
+## Connecting the app and database instances
+
+
+|App Instance |DB Instance|
+|-----------|-----------|
