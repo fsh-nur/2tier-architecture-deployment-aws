@@ -197,9 +197,7 @@ sudo systemctl start mongod
 |1. cd to home folder:  ```cd app```|8. ```cd ```|
 |2. open mongod configuration file:  ```sudo nano /etc/mongod.conf```|9. sudo nano .bashrc - open .bashrc file to create your environment variable there |
 |3. Scroll down, change bindip to 0.0.0.0|10. Scroll to the bottom and write export DB_HOST=mongodb://<ip>:27017/posts |
-|4. CTRL + X and y to save|11. ```source .bashrc``` restarts .bashrc file to apply changes
- |
+|4. CTRL + X and y to save|11. ```source .bashrc``` restarts .bashrc file to apply changes|
 |5. Restart mongod :```sudo systemctl restart mongod```|12. ```cd app```|
-|6. Enable autostart of mongo: ```sudo systemctl enable mongod```|13. ```node seeds/seed.js``` - seed data to database
- |
+|6. Enable autostart of mongo: ```sudo systemctl enable mongod```|13. ```node seeds/seed.js``` - seed data to database|
 |7. Ensure that mongo is running: ```sudo systemctl status mongod ```|14. Run the app by using node app.js and search your IP/posts in your web browser|
