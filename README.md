@@ -5,7 +5,7 @@
 
 ### Migrating the "app" and "db" directory:
 
-## Use the same steps respectively  the "environemt" folder in our local host.
+## Use the same steps respectively  the "environment" folder in our local host.
 
 1. cd into our ssh folder where our .pem file exists
 
