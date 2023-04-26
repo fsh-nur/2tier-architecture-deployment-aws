@@ -206,4 +206,33 @@ sudo systemctl start mongod
  The following page should appear:
  
  ![posts](https://user-images.githubusercontent.com/129324316/234239523-7dc09a3a-ab11-4342-9b75-0bfffe26f897.png)
+ 
+ ==========================================================================================================================
+ 
+ 
+ ## Autoscaling
+
+AutoScaling in AWS is the advanced cloud computing feature that provides **automatic resource management** based on the server’s load. E.g when deploying instances, if one data centre went down it will go to another one
+autoscaler replaces and terminates the instances.
+
+## Load Balancing
+
+Load balancing is the process of distributing a set of tasks over a set of resources (EC2 Instances),  with the aim of making their overall processing more efficient. Until there is a status 200 recieved from an autoscaler, it will divert traffic traffic.
+
+
+![Screenshot_1](https://user-images.githubusercontent.com/129324316/234581569-28e4c14f-0db0-4bf3-a4ef-ebf38c27613e.png)
+
+*Application Load Balancer is the most efficient load balancer: application load balancer works on the 7th layer — application layer — in the OSI model. Made for cloud environments, application load balancers assess application content and routes it to applications in the AWS public cloud.*
+
+## Scaling Up vs Scaling Out
+
+- Scale up (bigger server)
+- Scale out (replicas of the same size)   (*Load balancing follows a scale out structure*)
+
+## High Availability in AWS
+
+- High availability means that a system will almost always maintain uptime, albeit sometimes in a degraded state. With regard to AWS, a system has high availability when it has 99.999% uptime, also known as "five nines". To put that in perspective, the system would be down for a mere five minutes and fifteen seconds a year.
+
+
+
 
