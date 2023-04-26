@@ -233,7 +233,14 @@ Load balancing is the process of distributing a set of tasks over a set of resou
 
 - High availability means that a system will almost always maintain uptime, albeit sometimes in a degraded state. With regard to AWS, a system has high availability when it has 99.999% uptime, also known as "five nines". To put that in perspective, the system would be down for a mere five minutes and fifteen seconds a year.
  
+
+## What we need:
  
+- Create a template with the required information in order to deploy an internet facing app available on port 80
+- In order to test it- installing nginx with the help of autoscaling group this is replicated to all the instances
+
+ 
+## Steps
  
 
 
